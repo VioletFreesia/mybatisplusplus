@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.violetfreesia'
+version '3.4.2'
+
+repositories {
+//    mavenCentral()
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+}
+
+dependencies {
+    implementation 'com.baomidou:mybatis-plus:3.4.2'
+    implementation 'org.springframework:spring-jdbc:5.3.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
