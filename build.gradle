@@ -6,8 +6,10 @@ group 'com.violetfreesia'
 version '3.4.2'
 
 repositories {
-//    mavenCentral()
     maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    maven { url 'https://www.jitpack.io' }
+    mavenCentral()
+    jcenter()
 }
 
 dependencies {
