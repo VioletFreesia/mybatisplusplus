@@ -34,11 +34,13 @@
 
 2. 引入依赖
 
+   > 最新版为: 3.4.2-release
+
    **Gradle**
 
    ```groovy
    dependencies {
-       implementation 'com.violetfreesia:mybatisplusplus:3.4.2-beta'
+       implementation 'com.violetfreesia:mybatisplusplus:latestVersion'
    }
    ```
 
@@ -48,7 +50,7 @@
    <dependency>
    	<groupId>com.violetfreesia</groupId>
    	<artifactId>mybatisplusplus</artifactId>
-   	<version>3.4.2-beta</version>
+   	<version>latestVersion</version>
    </dependency>
    ```
 
